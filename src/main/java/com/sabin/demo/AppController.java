@@ -12,4 +12,9 @@ public class AppController {
         model.setLastname("KC");
         return model;
     }
+
+    @GetMapping("github/testing")
+    public String githubDemo(){
+        return "Demo Github";
+    }
 }
