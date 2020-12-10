@@ -17,4 +17,10 @@ public class AppController {
     public String githubDemo(){
         return "Demo Github";
     }
+
+    @GetMapping("final/testing")
+    public String finalDemo(){
+        return "Final Github";
+    }
+
 }
