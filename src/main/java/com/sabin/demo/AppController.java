@@ -8,7 +8,7 @@ public class AppController {
     @GetMapping("test/model")
     public Model getModel(){
         Model model=new Model();
-        model.setFirstname("Sabin");
+        model.setFirstname("Sa");
         model.setLastname("KC");
         return model;
     }
